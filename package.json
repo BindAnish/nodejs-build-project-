@@ -4,8 +4,12 @@
   "description": "Simple Node.js App",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha test/test.js"
   },
   "author": "Anish",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
 }
